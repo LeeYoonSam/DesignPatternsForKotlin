@@ -1,16 +1,14 @@
 package structural
 
-import com.sun.javafx.scene.traversal.Direction
-import creational.FactoryMethodPattern
-
 /**
  * 출처: https://gmlwjd9405.github.io/2018/07/09/decorator-pattern.html
  *
  * DecoratorPattern(구조 패턴)
  *
  * < 데코레이터 패턴 >
- * 객체의 결합 을 통해 기능을 동적으로 유연하게 확장 할 수 있게 해주는 패턴
- *      즉, 기본 기능에 추가할 수 있는 기능의 종류가 많은 경우에 각 추가 기능을 Decorator 클래스로 정의 한 후 필요한 Decorator 객체를 조합함으로써 추가 기능의 조합을 설계 하는 방식이다.
+ * 객체의 결합을 통해 기능을 동적으로 유연하게 확장 할 수 있게 해주는 패턴
+ *      즉, 기본 기능에 추가할 수 있는 기능의 종류가 많은 경우에 각 추가 기능을 Decorator 클래스로 정의 한 후 필요한
+ *      Decorator 객체를 조합함으로써 추가 기능의 조합을 설계 하는 방식이다.
  *          Ex) 기본 도로 표시 기능에 차선 표시, 교통량 표시, 교차로 표시, 단속 카메라 표시의 4가지 추가 기능이 있을 때 추가 기능의 모든 조합은 15가지가 된다.
  *          -> 데코레이터 패턴을 이용하여 필요 추가 기능의 조합을 동적으로 생성할 수 있다.
  * 기본 기능에 추가할 수 있는 많은 종류의 부가 기능에서 파생되는 다양한 조합을 동적으로 구현할 수 있는 패턴이다.
@@ -28,6 +26,7 @@ import creational.FactoryMethodPattern
  *      ConcreteDecorator 클래스는 ConcreteComponent 객체에 대한 참조가 필요한데, 이는 Decorator 클래스에서 Component 클래스로의 ‘합성(composition) 관계’를 통해 표현됨
  *
  * 참고
+ *  구조패턴 이란?
  *      클래스나 객체를 조합해서 더 큰 구조를 만드는 패턴
  *      예를 들어 서로 다른 인터페이스를 지닌 2개의 객체를 묶어 단일 인터페이스를 제공하거나 객체들을 서로 묶어 새로운 기능을 제공하는 패턴
  */
