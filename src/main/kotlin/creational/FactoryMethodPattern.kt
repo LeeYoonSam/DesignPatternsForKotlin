@@ -1,6 +1,5 @@
 package creational
 
-import com.sun.javafx.scene.traversal.Direction
 import java.util.*
 
 /**
@@ -378,6 +377,11 @@ class FactoryMethodPattern {
             }
         }
     }
+}
+
+enum class Direction {
+    UP,
+    DOWN
 }
 
 fun main() {
