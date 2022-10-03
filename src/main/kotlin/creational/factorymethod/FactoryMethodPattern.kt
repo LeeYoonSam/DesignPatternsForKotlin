@@ -1,4 +1,4 @@
-package creational
+package creational.factorymethod
 
 import java.util.*
 
@@ -295,7 +295,7 @@ class FactoryMethodPattern {
      */
     class ElevatorManagerNew(controllerCount: Int, strategyID: SchedulingStrategyID) {
         private val controllers = mutableListOf<ElevatorController>()
-        private var strategyID:SchedulingStrategyID = strategyID
+        private var strategyID: SchedulingStrategyID = strategyID
 
         init {
             for( i in 0 until controllerCount) {
