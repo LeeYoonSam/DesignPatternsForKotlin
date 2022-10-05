@@ -6,8 +6,12 @@ fun linebreak(line: Int = 1) {
     }
 }
 
-fun divider() {
-    println("------------------------------------")
+fun divider(message: String? = null) {
+    if (message.isNullOrEmpty()) {
+        println("------------------------------------")
+    } else {
+        println("--------------- $message ---------------")
+    }
 }
 
 fun dividerWithMessage(message: String) {
