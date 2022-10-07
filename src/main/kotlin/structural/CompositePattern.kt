@@ -99,85 +99,29 @@ class CompositePattern {
      *      즉, Computer 클래스도 ComputerDevice 클래스의 일종
      *      ComputerDevice 클래스를 이용하면 Client 프로그램은 Keyboard, Body 등과 마찬가지로 Computer를 상용할 수 있다.
      */
-    abstract class ComputerDevice() {
-        abstract fun getPrice(): Int
-        abstract fun getPower(): Int
+    interface ComputerDevice {
+        val power: Int
+        val price: Int
     }
 
-    class KeyBoard(power: Int, price: Int): ComputerDevice() {
-        private val price: Int = price
-        private val power: Int = power
+    class KeyBoard(override val power: Int, override val price: Int): ComputerDevice
+    class Body(override val power: Int, override val price: Int): ComputerDevice
+    class Monitor(override val power: Int, override val price: Int): ComputerDevice
+    class Speaker(override val power: Int, override val price: Int): ComputerDevice
+    class Mouse(override val power: Int, override val price: Int): ComputerDevice
 
-        override fun getPrice(): Int {
-            return price
-        }
-
-        override fun getPower(): Int {
-            return power
-        }
-    }
-
-    class Body(power: Int, price: Int): ComputerDevice() {
-        private val price: Int = price
-        private val power: Int = power
-
-        override fun getPrice(): Int {
-            return price
-        }
-
-        override fun getPower(): Int {
-            return power
-        }
-    }
-
-    class Monitor(power: Int, price: Int): ComputerDevice() {
-        private val price: Int = price
-        private val power: Int = power
-
-        override fun getPrice(): Int {
-            return price
-        }
-
-        override fun getPower(): Int {
-            return power
-        }
-    }
-
-    class Speaker(power: Int, price: Int): ComputerDevice() {
-        private val price: Int = price
-        private val power: Int = power
-
-        override fun getPrice(): Int {
-            return price
-        }
-
-        override fun getPower(): Int {
-            return power
-        }
-    }
-
-    class Mouse(power: Int, price: Int): ComputerDevice() {
-        private val price: Int = price
-        private val power: Int = power
-
-        override fun getPrice(): Int {
-            return price
-        }
-
-        override fun getPower(): Int {
-            return power
-        }
-    }
-
-    class Computer: ComputerDevice() {
+    class Computer: ComputerDevice {
         // 복수 개의 ComputerDevice 객체를 가리킴
         private val components = mutableListOf<ComputerDevice>()
 
         fun addComponent(component: ComputerDevice) = components.add(component)
         fun removeComponent(component: ComputerDevice) = components.remove(component)
 
-        override fun getPrice() = components.sumBy { it.getPrice() }
-        override fun getPower() = components.sumBy { it.getPower() }
+        override val power: Int
+            get() = components.sumOf { it.power }
+
+        override val price: Int
+            get() = components.sumOf { it.price }
     }
 }
 
@@ -215,8 +159,8 @@ fun main() {
     computer.addComponent(monitor)
     computer.addComponent(speaker)
     computer.addComponent(mouse)
-    println("Computer Price: ${computer.getPrice()}만원\nComputer Power: ${computer.getPower()}W")
+    println("Computer Price: ${computer.price}만원\nComputer Power: ${computer.power}W")
 
     computer.removeComponent(mouse)
-    println("Computer Price: ${computer.getPrice()}만원\nComputer Power: ${computer.getPower()}W")
+    println("Computer Price: ${computer.price}만원\nComputer Power: ${computer.power}W")
 }
