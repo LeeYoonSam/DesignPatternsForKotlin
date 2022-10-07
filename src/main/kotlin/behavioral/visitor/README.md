@@ -1,9 +1,9 @@
 # Visitor Pattern
 
-> 알고리즘을 오브젝트 구조로 분리하는 방법
-그 결과로 이미 있던 오브젝트에 수정없이 새로운 동작을 추가 할 수 있다. 개방/폐쇄 원칙을 따르는 하나의 방법
-기존 클래스를 수정하지 않고 새로운 기능을 추가하려고 할때 사용
->
+> 알고리즘을 오브젝트 구조로 분리하는 방법</br>
+> 그 결과로 이미 있던 오브젝트에 수정없이 새로운 동작을 추가 할 수 있다.</br>
+> 개방/폐쇄 원칙을 따르는 하나의 방법</br>
+> 기존 클래스를 수정하지 않고 새로운 기능을 추가하려고 할때 사용
 
 ## 구현
 
@@ -27,3 +27,4 @@
 - [강의 영상](https://www.youtube.com/watch?v=rbtyXGDL0eo)
 - [파이썬 코드](https://colab.research.google.com/github/NoCodeProgram/DesignPatterns/blob/main/Behavioral/visitorP.ipynb)
 - [코틀린 코드](https://pl.kotl.in/96EN8asmg)
+- [Simple Visitor Pattern Sample](./SimpleVisitorPattern.kt)
