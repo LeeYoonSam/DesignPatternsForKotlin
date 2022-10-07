@@ -42,7 +42,7 @@ class DecoratorPattern {
      * 1. 또 다른 도로 표시 기능을 추가로 구현하는 경우
      *      기본 도로 표시에 교통량을 표시하고 싶다면?
      * 2. 여러가지 추가 기능을 조합해야 하는 경우
-     *      기본 도로 표시에 차선 표시 기능과 교통량 표시 기능을 함께 제고 앟고 싶다면?
+     *      기본 도로 표시에 차선 표시 기능과 교통량 표시 기능을 함께 제공하고 싶다면?
      *      상속을 통해 조합의 각 경우를 설계한다면 각 조합별로 하위 클래스를 일일이 다 구현해야 한다
      *      다양한 기능의 조합을 고려해야 하는 경우 상속을 통한 기능의 확장은 각 기능별로 클래스를 추가해야한다는 단점
      */
@@ -69,17 +69,17 @@ class DecoratorPattern {
      *      도로 표시 가능은 RoadDisplay 클래스의 draw 메서드를 호출: super.draw()
      *          (DisplayDecorator 클래스에서 Display 클래스로의 합성(composition) 관계를 통해 RoadDisplay 객체에 대한 참조)
      */
-    abstract class Display {
-        abstract fun draw()
+    interface Display {
+        fun draw()
     }
 
     // 기본 도로 표시 클래스
-    class RoadDisplay: Display() {
+    class RoadDisplay: Display {
         override fun draw() = println("기본 도로 표시")
     }
 
     // 다양한 추가 기능에 대한 공통 클래스
-    abstract class DisplayDecorator(private val decorateDisplay: Display): Display() {
+    abstract class DisplayDecorator(private val decorateDisplay: Display): Display {
         override fun draw() {
             decorateDisplay.draw()
         }
@@ -135,19 +135,17 @@ fun main() {
     val road = DecoratorPattern.RoadDisplay()
     road.draw().also { println("") }// 기본 도로 표시
 
-    val roadWithLane = DecoratorPattern.LaneDecorator(DecoratorPattern.RoadDisplay())
+    val roadWithLane = DecoratorPattern.LaneDecorator(road)
     roadWithLane.draw().also { println("") } // 기본 도로 표시 + 차선 표시
 
-    val roadWithTraffic = DecoratorPattern.TrafficDecorator(DecoratorPattern.RoadDisplay())
+    val roadWithTraffic = DecoratorPattern.TrafficDecorator(road)
     roadWithTraffic.draw() // 기본 도로 표시 + 교통량 표시
 
     println("--------------------------------- After 추가 예시 ---------------------------------")
     // 기본 도로 + 차선 + 교통량 표시
     val roadWithLaneAndTraffic =
         DecoratorPattern.TrafficDecorator(
-            DecoratorPattern.LaneDecorator(
-                DecoratorPattern.RoadDisplay()
-            )
+            roadWithLane
         )
     roadWithLaneAndTraffic.draw().also { println("") }
 
@@ -156,7 +154,10 @@ fun main() {
         DecoratorPattern.LaneDecorator(
             DecoratorPattern.TrafficDecorator(
                 DecoratorPattern.CrossingDecorator(
-                    DecoratorPattern.RoadDisplay())))
+                    road
+                )
+            )
+        )
 
     roadWithCrossingLaneAndTraffic.draw()
 }
