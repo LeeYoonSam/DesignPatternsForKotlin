@@ -1,4 +1,4 @@
-package structural
+package structural.decorator
 
 /**
  * 출처: https://gmlwjd9405.github.io/2018/07/09/decorator-pattern.html
