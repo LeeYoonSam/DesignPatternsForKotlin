@@ -80,6 +80,14 @@ fun printMovies(movies: List<String>) {
     }
 }
 
+object Logger {
+    init {
+        println("I was accessed for the first time")
+        // Initialization loginc goes here
+    }
+    // More code goes here
+}
+
 fun main() {
     dividerWithMessage("No Movies List")
     testNoMoviesList()

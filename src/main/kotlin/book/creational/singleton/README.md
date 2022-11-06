@@ -112,3 +112,18 @@ Kotlin은 이미 모든 유형의 빈 목록을 만드는 기능을 제공합니
 ```kotlin
 printMovies(emptyList())
 ```
+
+Kotlin 객체는 클래스의 주요 차이점은 생성자를 가질 수 없다는 것입니다. 
+구성 파일에서 데이터를 처음 로드하는 것과 같이 `Singleton`에 대한 초기화를 구현해야 하는 경우 `init` 블록을 사용할 수 있습니다.
+```kotlin
+object Logger {
+    init {
+        println("I was accessed for the first time")
+        // Initialization logic goes here
+    }
+    // More code goes here
+}
+```
+- `Singleton`이 호출되지 않으면 초기화 로직이 실행되지 않으므로 리소스가 절약됩니다. 이것을 `지연 초기화`라고 합니다.
+
+이제 객체 생성을 제한하는 방법을 배웠으므로 생성자를 직접 사용하지 않고 객체를 생성하는 방법에 대해 논의해 보겠습니다.
