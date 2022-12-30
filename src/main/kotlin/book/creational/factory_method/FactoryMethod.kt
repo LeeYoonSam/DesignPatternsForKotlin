@@ -1,8 +1,5 @@
 package book.creational.factory_method
 
-import org.w3c.dom.Notation
-import java.lang.RuntimeException
-
 interface ChessPiece {
     val file: Char
     val rank: Char

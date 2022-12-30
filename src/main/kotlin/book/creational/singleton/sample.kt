@@ -1,8 +1,6 @@
 package book.creational.singleton
 
-import util.divider
 import util.dividerWithMessage
-import util.linebreak
 
 // create instance
 val myFavoriteMovies = listOf("Black Hawk Down", "Blade Runner")
