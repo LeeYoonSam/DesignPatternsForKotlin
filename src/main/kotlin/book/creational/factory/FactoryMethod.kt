@@ -1,4 +1,4 @@
-package book.creational.factory_method
+package book.creational.factory
 
 interface ChessPiece {
     val file: Char
