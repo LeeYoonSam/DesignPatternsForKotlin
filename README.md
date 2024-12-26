@@ -65,3 +65,18 @@
 3. 행위 패턴(Behavioral Pattern)
     - 객체나 클래스 사이의 알고리즘이나 책임 분배에 관련된 패턴
     - 한 객체가 혼자 수행할 수 없는 작업을 여러 개의 객체로 어떻게 분배하는지, 또 그렇게 하면서도 객체 사이의 결합도를 최소화하는 것에 중점을 둔다.
+
+## 디자인 패턴 샘플(문제/해결)
+- [Iterator Pattern based Library](src/main/kotlin/behavioral/iterator/library/README.md)
+- [TemplateMethod based Build System](src/main/kotlin/behavioral/templatemethod/buildsystem/README.md)
+- [Composite based Employee Organization](src/main/kotlin/structural/composite/employee/README.md)
+- [Proxy pattern based DatabaseProxy](src/main/kotlin/structural/proxy/database/README.md)
+- [Singleton based DB Connection, Application Config](src/main/kotlin/creational/singleton/database/README.md)
+- [Adapter Pattern based Unified PaymentSystem](src/main/kotlin/structural/adapter/payment/README.md)
+- [Decorator Pattern based Coffee](src/main/kotlin/structural/decorator/coffee/README.md)
+- [Observer Pattern based News Publish](src/main/kotlin/behavioral/observer/news/README.md)
+- [Add the payment process with the strategy pattern](src/main/kotlin/behavioral/strategy/payment/README.md)
+- [FactoryMethod based Lotto generator](src/main/kotlin/creational/factorymethod/README.md)
+- [Bridge Pattern based Cross Platform UI Elements](src/main/kotlin/structural/bridge/uielement/README.md)
+- [Command Pattern based Text Editor](src/main/kotlin/behavioral/command/editor/README.md)
+- State Pattern based OrderProcess
