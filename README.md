@@ -80,3 +80,4 @@
 - [Bridge Pattern based Cross Platform UI Elements](src/main/kotlin/structural/bridge/uielement/README.md)
 - [Command Pattern based Text Editor](src/main/kotlin/behavioral/command/editor/README.md)
 - [State Pattern based OrderProcess](src/main/kotlin/behavioral/state/order/README.md)
+- [Chain of Responsibility Pattern based Logger System](src/main/kotlin/behavioral/chain/logger/README.md)
