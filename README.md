@@ -85,3 +85,4 @@
 - [Mediator Pattern based Smart Home](src/main/kotlin/behavioral/mediator/smarthome/README.md)
 - [Memento Pattern based Text Editor Undo System](src/main/kotlin/behavioral/memento/README.md)
 - [Visitor Pattern based File System](src/main/kotlin/behavioral/visitor/file/README.md)
+- [Flyweight Pattern based Text Editor](src/main/kotlin/structural/flyweight/texteditor/README.md)
