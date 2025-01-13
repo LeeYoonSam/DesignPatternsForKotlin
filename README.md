@@ -88,3 +88,4 @@
 - [Flyweight Pattern based Font Rendering System](src/main/kotlin/structural/flyweight/texteditor/README.md)
 - [Interpreter Pattern based Calculator](src/main/kotlin/behavioral/interpreter/calculator/README.md)
 - [Abstract Factory Pattern based GUI Application](src/main/kotlin/creational/abstractfactory/gui/README.md)
+- [FactoryMethod Pattern based Payment System](src/main/kotlin/creational/factorymethod/payment/README.md)
