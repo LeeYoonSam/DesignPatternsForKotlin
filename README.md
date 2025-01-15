@@ -90,3 +90,4 @@
 - [Abstract Factory Pattern based GUI Application](src/main/kotlin/creational/abstractfactory/gui/README.md)
 - [FactoryMethod Pattern based Payment System](src/main/kotlin/creational/factorymethod/payment/README.md)
 - [Prototype Pattern based Game Character System](src/main/kotlin/creational/prototype/character/README.md)
+- [Composite Pattern based File System](src/main/kotlin/structural/composite/filesystem/README.md)
