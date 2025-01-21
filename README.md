@@ -94,3 +94,4 @@
 - [Publish-Subscribe Pattern based Event Bus System](src/main/kotlin/behavioral/pubsub/eventbus/README.md)
 - [Producer-Consumer Pattern based Job Queue System](src/main/kotlin/concurrent/producerconsumer/jobqueue/README.md)
 - [Cache Pattern based Expensive Operation System](src/main/kotlin/structural/cache/expensive/README.md)
+- [Circuit Breaker Pattern based Remote Service System](src/main/kotlin/stability/circuitbreaker/service/README.md)
