@@ -96,3 +96,4 @@
 - [Cache Pattern based Expensive Operation System](src/main/kotlin/structural/cache/expensive/README.md)
 - [Circuit Breaker Pattern based Remote Service System](src/main/kotlin/stability/circuitbreaker/service/README.md)
 - [CQRS Pattern based Inventory Management System](src/main/kotlin/architecture/cqrs/inventory/README.md)
+- [Repository Pattern based Customer Management System](src/main/kotlin/structural/repository/customer/README.md)
