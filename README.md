@@ -97,3 +97,4 @@
 - [Circuit Breaker Pattern based Remote Service System](src/main/kotlin/stability/circuitbreaker/service/README.md)
 - [CQRS Pattern based Inventory Management System](src/main/kotlin/architecture/cqrs/inventory/README.md)
 - [Repository Pattern based Customer Management System](src/main/kotlin/structural/repository/customer/README.md)
+- [Unit of Work Pattern based Order Processing System](src/main/kotlin/structural/unitofwork/order/README.md)
