@@ -98,3 +98,4 @@
 - [CQRS Pattern based Inventory Management System](src/main/kotlin/architecture/cqrs/inventory/README.md)
 - [Repository Pattern based Customer Management System](src/main/kotlin/structural/repository/customer/README.md)
 - [Unit of Work Pattern based Order Processing System](src/main/kotlin/structural/unitofwork/order/README.md)
+- [Specification Pattern based Product Filter System](src/main/kotlin/behavioral/specification/product/README.md)
