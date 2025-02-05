@@ -100,3 +100,4 @@
 - [Unit of Work Pattern based Order Processing System](src/main/kotlin/structural/unitofwork/order/README.md)
 - [Specification Pattern based Product Filter System](src/main/kotlin/behavioral/specification/product/README.md)
 - [Module Pattern based Http Configuration](src/main/kotlin/structural/module/configuration/README.md)
+- [Resource Acquisition Is Initialization(RAII) Pattern based Manage Resource](src/main/kotlin/raii/resource/README.md)
