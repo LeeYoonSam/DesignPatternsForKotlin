@@ -103,3 +103,4 @@
 - [Resource Acquisition Is Initialization(RAII) Pattern based Manage Resource](src/main/kotlin/raii/resource/README.md)
 - [Facade Pattern based Video Conversion System](src/main/kotlin/structural/facade/videoconversion/README.md)
 - [Service Locator Pattern based Notification System](src/main/kotlin/structural/servicelocator/notification/README.md)
+- [Event Sourcing Pattern based Bank Account System](src/main/kotlin/architecture/eventsourcing/bank/README.md)
