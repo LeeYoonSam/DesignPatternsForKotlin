@@ -105,3 +105,6 @@
 - [Service Locator Pattern based Notification System](src/main/kotlin/structural/servicelocator/notification/README.md)
 - [Event Sourcing Pattern based Bank Account System](src/main/kotlin/architecture/eventsourcing/bank/README.md)
 - [Saga Pattern based Order Processing System](src/main/kotlin/architecture/saga/order/README.md)
+- [Bulkhead Pattern based Web Service System](src/main/kotlin/stability/bulkhead/webservice/README.md)
+- [Throttling Pattern based API Service System](src/main/kotlin/stability/throttling/api/README.md)
+
