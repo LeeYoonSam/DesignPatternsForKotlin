@@ -108,6 +108,5 @@
 - [Bulkhead Pattern based Web Service System](src/main/kotlin/stability/bulkhead/webservice/README.md)
 - [Throttling Pattern based API Service System](src/main/kotlin/stability/throttling/api/README.md)
 - [Retry Pattern based Network Service System](src/main/kotlin/stability/retry/network/README.md)
-
-
+- [Dead Letter Queue Pattern based Message Processing System](src/main/kotlin/messaging/deadletter/processing/README.md)
 
