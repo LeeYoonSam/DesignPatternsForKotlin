@@ -113,3 +113,4 @@
 - [Backend For Frontend Pattern based Multi-Client API System](src/main/kotlin/architecture/bff/multiclient/README.md)
 - [Feature Toggle Pattern based Feature Management System](src/main/kotlin/architecture/featuretoggle/management/README.md)
 - [Rate Limiter Pattern based API Request Control System](src/main/kotlin/stability/ratelimiter/api/README.md)
+- [Interceptor Pattern based HTTP Request Processing System](src/main/kotlin/behavioral/interceptor/http/README.md)
