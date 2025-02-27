@@ -116,3 +116,4 @@
 - [Interceptor Pattern based HTTP Request Processing System](src/main/kotlin/behavioral/interceptor/http/README.md)
 - [Multiton Pattern based Registry System](src/main/kotlin/creational/multiton/registry/README.md)
 - [Object Pool Pattern based Database Connection Pool](src/main/kotlin/creational/objectpool/dbconnection/README.md)
+- [Dependency Injection Pattern based User Service](src/main/kotlin/structural/di/userservice/README.md)
