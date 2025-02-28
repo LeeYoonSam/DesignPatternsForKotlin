@@ -66,54 +66,70 @@
     - 객체나 클래스 사이의 알고리즘이나 책임 분배에 관련된 패턴
     - 한 객체가 혼자 수행할 수 없는 작업을 여러 개의 객체로 어떻게 분배하는지, 또 그렇게 하면서도 객체 사이의 결합도를 최소화하는 것에 중점을 둔다.
 
-## 디자인 패턴 샘플(문제/해결)
-- [Iterator Pattern based Library](src/main/kotlin/behavioral/iterator/library/README.md)
-- [TemplateMethod based Build System](src/main/kotlin/behavioral/templatemethod/buildsystem/README.md)
-- [Composite based Employee Organization](src/main/kotlin/structural/composite/employee/README.md)
-- [Proxy pattern based DatabaseProxy](src/main/kotlin/structural/proxy/database/README.md)
+## Design Patterns Learning List
+### Creational Patterns
 - [Singleton based DB Connection, Application Config](src/main/kotlin/creational/singleton/database/README.md)
-- [Adapter Pattern based Unified PaymentSystem](src/main/kotlin/structural/adapter/payment/README.md)
-- [Decorator Pattern based Coffee](src/main/kotlin/structural/decorator/coffee/README.md)
-- [Observer Pattern based News Publish](src/main/kotlin/behavioral/observer/news/README.md)
-- [Add the payment process with the strategy pattern](src/main/kotlin/behavioral/strategy/payment/README.md)
 - [FactoryMethod based Lotto generator](src/main/kotlin/creational/factorymethod/README.md)
-- [Bridge Pattern based Cross Platform UI Elements](src/main/kotlin/structural/bridge/uielement/README.md)
-- [Command Pattern based Text Editor](src/main/kotlin/behavioral/command/editor/README.md)
-- [State Pattern based OrderProcess](src/main/kotlin/behavioral/state/order/README.md)
-- [Chain of Responsibility Pattern based Logger System](src/main/kotlin/behavioral/chain/logger/README.md)
 - [Builder Pattern based HTMLDocument](src/main/kotlin/creational/builder/html/README.md)
-- [Mediator Pattern based Smart Home](src/main/kotlin/behavioral/mediator/smarthome/README.md)
-- [Memento Pattern based Text Editor Undo System](src/main/kotlin/behavioral/memento/README.md)
-- [Visitor Pattern based File System](src/main/kotlin/behavioral/visitor/file/README.md)
-- [Flyweight Pattern based Font Rendering System](src/main/kotlin/structural/flyweight/texteditor/README.md)
-- [Interpreter Pattern based Calculator](src/main/kotlin/behavioral/interpreter/calculator/README.md)
 - [Abstract Factory Pattern based GUI Application](src/main/kotlin/creational/abstractfactory/gui/README.md)
 - [FactoryMethod Pattern based Payment System](src/main/kotlin/creational/factorymethod/payment/README.md)
 - [Prototype Pattern based Game Character System](src/main/kotlin/creational/prototype/character/README.md)
+- [Object Pool Pattern based Connection Pool System](src/main/kotlin/creational/objectpool/connection/README.md)
+- [Multiton Pattern based Registry System](src/main/kotlin/creational/multiton/registry/README.md)
+- [Object Pool Pattern based Database Connection Pool](src/main/kotlin/creational/objectpool/dbconnection/README.md)
+
+### Structural Patterns
+- [Composite based Employee Organization](src/main/kotlin/structural/composite/employee/README.md)
+- [Proxy pattern based DatabaseProxy](src/main/kotlin/structural/proxy/database/README.md)
+- [Adapter Pattern based Unified PaymentSystem](src/main/kotlin/structural/adapter/payment/README.md)
+- [Decorator Pattern based Coffee](src/main/kotlin/structural/decorator/coffee/README.md)
+- [Bridge Pattern based Cross Platform UI Elements](src/main/kotlin/structural/bridge/uielement/README.md)
+- [Flyweight Pattern based Font Rendering System](src/main/kotlin/structural/flyweight/texteditor/README.md)
 - [Composite Pattern based File System](src/main/kotlin/structural/composite/filesystem/README.md)
-- [Publish-Subscribe Pattern based Event Bus System](src/main/kotlin/behavioral/pubsub/eventbus/README.md)
-- [Producer-Consumer Pattern based Job Queue System](src/main/kotlin/concurrent/producerconsumer/jobqueue/README.md)
 - [Cache Pattern based Expensive Operating System](src/main/kotlin/structural/cache/expensive/README.md)
-- [Circuit Breaker Pattern based Remote Service System](src/main/kotlin/stability/circuitbreaker/service/README.md)
-- [CQRS Pattern based Inventory Management System](src/main/kotlin/architecture/cqrs/inventory/README.md)
 - [Repository Pattern based Customer Management System](src/main/kotlin/structural/repository/customer/README.md)
 - [Unit of Work Pattern based Order Processing System](src/main/kotlin/structural/unitofwork/order/README.md)
-- [Specification Pattern based Product Filter System](src/main/kotlin/behavioral/specification/product/README.md)
 - [Module Pattern based Http Configuration](src/main/kotlin/structural/module/configuration/README.md)
-- [Resource Acquisition Is Initialization(RAII) Pattern based Manage Resource](src/main/kotlin/raii/resource/README.md)
 - [Facade Pattern based Video Conversion System](src/main/kotlin/structural/facade/videoconversion/README.md)
 - [Service Locator Pattern based Notification System](src/main/kotlin/structural/servicelocator/notification/README.md)
-- [Event Sourcing Pattern based Bank Account System](src/main/kotlin/architecture/eventsourcing/bank/README.md)
-- [Saga Pattern based Order Processing System](src/main/kotlin/architecture/saga/order/README.md)
+- [Dependency Injection Pattern based User Service](src/main/kotlin/structural/di/userservice/README.md)
+- [Lazy Loading Pattern based Image Gallery](src/main/kotlin/structural/lazyloading/gallery/README.md)
+
+### Behavioral Patterns
+- [Iterator Pattern based Library](src/main/kotlin/behavioral/iterator/library/README.md)
+- [TemplateMethod based Build System](src/main/kotlin/behavioral/templatemethod/buildsystem/README.md)
+- [Observer Pattern based News Publish](src/main/kotlin/behavioral/observer/news/README.md)
+- [Add the payment process with the strategy pattern](src/main/kotlin/behavioral/strategy/payment/README.md)
+- [Command Pattern based Text Editor](src/main/kotlin/behavioral/command/editor/README.md)
+- [State Pattern based OrderProcess](src/main/kotlin/behavioral/state/order/README.md)
+- [Chain of Responsibility Pattern based Logger System](src/main/kotlin/behavioral/chain/logger/README.md)
+- [Mediator Pattern based Smart Home](src/main/kotlin/behavioral/mediator/smarthome/README.md)
+- [Memento Pattern based Text Editor Undo System](src/main/kotlin/behavioral/memento/README.md)
+- [Visitor Pattern based File System](src/main/kotlin/behavioral/visitor/file/README.md)
+- [Interpreter Pattern based Calculator](src/main/kotlin/behavioral/interpreter/calculator/README.md)
+- [Publish-Subscribe Pattern based Event Bus System](src/main/kotlin/behavioral/pubsub/eventbus/README.md)
+- [Specification Pattern based Product Filter System](src/main/kotlin/behavioral/specification/product/README.md)
+- [Interceptor Pattern based HTTP Request Processing System](src/main/kotlin/behavioral/interceptor/http/README.md)
+
+### Concurrent Patterns
+- [Producer-Consumer Pattern based Job Queue System](src/main/kotlin/concurrent/producerconsumer/jobqueue/README.md)
+
+### Stability Patterns
+- [Circuit Breaker Pattern based Remote Service System](src/main/kotlin/stability/circuitbreaker/service/README.md)
 - [Bulkhead Pattern based Web Service System](src/main/kotlin/stability/bulkhead/webservice/README.md)
 - [Throttling Pattern based API Service System](src/main/kotlin/stability/throttling/api/README.md)
 - [Retry Pattern based Network Service System](src/main/kotlin/stability/retry/network/README.md)
-- [Dead Letter Queue Pattern based Message Processing System](src/main/kotlin/messaging/deadletter/processing/README.md)
-- [Object Pool Pattern based Connection Pool System](src/main/kotlin/creational/objectpool/connection/README.md)
+- [Rate Limiter Pattern based API Request Control System](src/main/kotlin/stability/ratelimiter/api/README.md)
+
+### Architecture Patterns
+- [CQRS Pattern based Inventory Management System](src/main/kotlin/architecture/cqrs/inventory/README.md)
+- [Event Sourcing Pattern based Bank Account System](src/main/kotlin/architecture/eventsourcing/bank/README.md)
+- [Saga Pattern based Order Processing System](src/main/kotlin/architecture/saga/order/README.md)
 - [Backend For Frontend Pattern based Multi-Client API System](src/main/kotlin/architecture/bff/multiclient/README.md)
 - [Feature Toggle Pattern based Feature Management System](src/main/kotlin/architecture/featuretoggle/management/README.md)
-- [Rate Limiter Pattern based API Request Control System](src/main/kotlin/stability/ratelimiter/api/README.md)
-- [Interceptor Pattern based HTTP Request Processing System](src/main/kotlin/behavioral/interceptor/http/README.md)
-- [Multiton Pattern based Registry System](src/main/kotlin/creational/multiton/registry/README.md)
-- [Object Pool Pattern based Database Connection Pool](src/main/kotlin/creational/objectpool/dbconnection/README.md)
-- [Dependency Injection Pattern based User Service](src/main/kotlin/structural/di/userservice/README.md)
+
+### Resource Management Patterns
+- [Resource Acquisition Is Initialization(RAII) Pattern based Manage Resource](src/main/kotlin/raii/resource/README.md)
+
+### Messaging Patterns
+- [Dead Letter Queue Pattern based Message Processing System](src/main/kotlin/messaging/deadletter/processing/README.md)
