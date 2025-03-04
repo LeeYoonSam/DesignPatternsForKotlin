@@ -110,6 +110,7 @@
 - [Publish-Subscribe Pattern based Event Bus System](src/main/kotlin/behavioral/pubsub/eventbus/README.md)
 - [Specification Pattern based Product Filter System](src/main/kotlin/behavioral/specification/product/README.md)
 - [Interceptor Pattern based HTTP Request Processing System](src/main/kotlin/behavioral/interceptor/http/README.md)
+- [Null Object Pattern based User Authorization System](src/main/kotlin/behavioral/nullobject/authorization/README.md)
 
 ### Concurrent Patterns
 - [Producer-Consumer Pattern based Job Queue System](src/main/kotlin/concurrent/producerconsumer/jobqueue/README.md)
