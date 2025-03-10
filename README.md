@@ -83,6 +83,7 @@
 - [Proxy pattern based DatabaseProxy](src/main/kotlin/structural/proxy/database/README.md)
 - [Adapter Pattern based Unified PaymentSystem](src/main/kotlin/structural/adapter/payment/README.md)
 - [Decorator Pattern based Coffee](src/main/kotlin/structural/decorator/coffee/README.md)
+- [Decorator Pattern for Authentication System](src/main/kotlin/structural/decorator/authentication/README.md)
 - [Bridge Pattern based Cross Platform UI Elements](src/main/kotlin/structural/bridge/uielement/README.md)
 - [Flyweight Pattern based Font Rendering System](src/main/kotlin/structural/flyweight/texteditor/README.md)
 - [Composite Pattern based File System](src/main/kotlin/structural/composite/filesystem/README.md)
