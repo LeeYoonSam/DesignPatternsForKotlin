@@ -85,6 +85,7 @@
 - [Decorator Pattern based Coffee](src/main/kotlin/structural/decorator/coffee/README.md)
 - [Decorator Pattern for Authentication System](src/main/kotlin/structural/decorator/authentication/README.md)
 - [Decorator Pattern for Dynamic Proxy System](src/main/kotlin/structural/decorator/dynamicproxy/README.md)
+- [Decorator Pattern based Logging System](src/main/kotlin/structural/decorator/logging/README.md)
 - [Bridge Pattern based Cross Platform UI Elements](src/main/kotlin/structural/bridge/uielement/README.md)
 - [Flyweight Pattern based Font Rendering System](src/main/kotlin/structural/flyweight/texteditor/README.md)
 - [Composite Pattern based File System](src/main/kotlin/structural/composite/filesystem/README.md)
