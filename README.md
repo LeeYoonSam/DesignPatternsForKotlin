@@ -82,6 +82,7 @@
 - [Composite based Employee Organization](src/main/kotlin/structural/composite/employee/README.md)
 - [Proxy pattern based DatabaseProxy](src/main/kotlin/structural/proxy/database/README.md)
 - [Adapter Pattern based Unified PaymentSystem](src/main/kotlin/structural/adapter/payment/README.md)
+- [Adapter Pattern based External API Integration System](src/main/kotlin/structural/adapter/externalapi/README.md)
 - [Decorator Pattern based Coffee](src/main/kotlin/structural/decorator/coffee/README.md)
 - [Decorator Pattern for Authentication System](src/main/kotlin/structural/decorator/authentication/README.md)
 - [Decorator Pattern for Dynamic Proxy System](src/main/kotlin/structural/decorator/dynamicproxy/README.md)
