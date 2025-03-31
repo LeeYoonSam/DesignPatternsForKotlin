@@ -99,6 +99,7 @@
 - [Service Locator Pattern based Notification System](src/main/kotlin/structural/servicelocator/notification/README.md)
 - [Dependency Injection Pattern based User Service](src/main/kotlin/structural/di/userservice/README.md)
 - [Lazy Loading Pattern based Image Gallery](src/main/kotlin/structural/lazyloading/gallery/README.md)
+- [Compound Pattern based Calendar Application](src/main/kotlin/structural/compound/calendar/README.md)
 
 ### Behavioral Patterns
 - [Iterator Pattern based Library](src/main/kotlin/behavioral/iterator/library/README.md)
