@@ -90,6 +90,7 @@
 - [Bridge Pattern based Cross Platform UI Elements](src/main/kotlin/structural/bridge/uielement/README.md)
 - [Flyweight Pattern based Font Rendering System](src/main/kotlin/structural/flyweight/texteditor/README.md)
 - [Flyweight Pattern based Game Object System](src/main/kotlin/structural/flyweight/gameobjects/README.md)
+- [Flyweight Pattern based Particle System](src/main/kotlin/structural/flyweight/particlesystem/README.md)
 - [Composite Pattern based File System](src/main/kotlin/structural/composite/filesystem/README.md)
 - [Cache Pattern based Expensive Operating System](src/main/kotlin/structural/cache/expensive/README.md)
 - [Repository Pattern based Customer Management System](src/main/kotlin/structural/repository/customer/README.md)
