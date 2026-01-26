@@ -124,11 +124,13 @@
 - [Interceptor Pattern based HTTP Request Processing System](src/main/kotlin/behavioral/interceptor/http/README.md)
 - [Null Object Pattern based User Authorization System](src/main/kotlin/behavioral/nullobject/authorization/README.md)
 - [Debounce Pattern based Search Component](src/main/kotlin/behavioral/debounce/search/README.md)
+- [Pipeline Pattern based Image Processing System](src/main/kotlin/behavioral/pipeline/image/README.md)
 
 ### Concurrent Patterns
 - [Producer-Consumer Pattern based Job Queue System](src/main/kotlin/concurrent/producerconsumer/jobqueue/README.md)
 - [Reactor Pattern based Network Server](src/main/kotlin/concurrent/reactor/server/README.md)
 - [ThreadLocal Storage Pattern based User Dashboard Controller](src/main/kotlin/concurrent/threadlocal/context/README.md)
+- [Active Object Pattern based Image Downloader System](src/main/kotlin/concurrent/activeobject/imagedownloader/README.md)
 
 ### Stability Patterns
 - [Circuit Breaker Pattern based Remote Service System](src/main/kotlin/stability/circuitbreaker/service/README.md)
@@ -144,6 +146,13 @@
 - [Backend For Frontend Pattern based Multi-Client API System](src/main/kotlin/architecture/bff/multiclient/README.md)
 - [Feature Toggle Pattern based Feature Management System](src/main/kotlin/architecture/featuretoggle/management/README.md)
 - [MVVM Pattern based Android Weather App](src/main/kotlin/architecture/mvvm/weather/README.md)
+- [Clean Architecture Pattern based User Management System](src/main/kotlin/architecture/cleanarchitecture/usermanagement/README.md)
+
+### DDD (Domain-Driven Design) Patterns
+- [Value Object and Entity Pattern based E-commerce Domain System](src/main/kotlin/architecture/ddd/ecommerce/README.md)
+- [Aggregate Pattern based Order Management System](src/main/kotlin/architecture/ddd/aggregate/README.md)
+- [Domain Event Pattern based Order Notification System](src/main/kotlin/architecture/ddd/domainevent/README.md)
+- [Domain Service Pattern based Money Transfer System](src/main/kotlin/architecture/ddd/domainservice/README.md)
 
 ### Resource Management Patterns
 - [Resource Acquisition Is Initialization(RAII) Pattern based Manage Resource](src/main/kotlin/raii/resource/README.md)
