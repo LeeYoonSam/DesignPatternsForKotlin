@@ -148,6 +148,7 @@
 - [MVVM Pattern based Android Weather App](src/main/kotlin/architecture/mvvm/weather/README.md)
 - [Clean Architecture Pattern based User Management System](src/main/kotlin/architecture/cleanarchitecture/usermanagement/README.md)
 - [Hexagonal Architecture Pattern based Payment Processing System](src/main/kotlin/architecture/hexagonal/payment/README.md)
+- [Strangler Fig Pattern based Legacy System Migration](src/main/kotlin/architecture/stranglerfig/migration/README.md)
 
 ### DDD (Domain-Driven Design) Patterns
 - [Value Object and Entity Pattern based E-commerce Domain System](src/main/kotlin/architecture/ddd/ecommerce/README.md)
