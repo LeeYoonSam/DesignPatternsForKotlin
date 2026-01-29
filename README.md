@@ -161,3 +161,4 @@
 
 ### Messaging Patterns
 - [Dead Letter Queue Pattern based Message Processing System](src/main/kotlin/messaging/deadletter/processing/README.md)
+- [Outbox Pattern based Order Event Publishing System](src/main/kotlin/messaging/outbox/order/README.md)
