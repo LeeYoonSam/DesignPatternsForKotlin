@@ -104,6 +104,7 @@
 - [Dependency Injection Pattern based User Service](src/main/kotlin/structural/di/userservice/README.md)
 - [Lazy Loading Pattern based Image Gallery](src/main/kotlin/structural/lazyloading/gallery/README.md)
 - [Compound Pattern based Calendar Application](src/main/kotlin/structural/compound/calendar/README.md)
+- [Ambassador Pattern based Remote Service Proxy System](src/main/kotlin/structural/ambassador/remoteservice/README.md)
 
 ### Behavioral Patterns
 - [Iterator Pattern based Library](src/main/kotlin/behavioral/iterator/library/README.md)
