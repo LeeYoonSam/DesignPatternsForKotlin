@@ -151,6 +151,7 @@
 - [Hexagonal Architecture Pattern based Payment Processing System](src/main/kotlin/architecture/hexagonal/payment/README.md)
 - [Strangler Fig Pattern based Legacy System Migration](src/main/kotlin/architecture/stranglerfig/migration/README.md)
 - [MVI Pattern based Product Search App](src/main/kotlin/architecture/mvi/search/README.md)
+- [Coordinator Pattern based Shopping App Navigation](src/main/kotlin/architecture/coordinator/shopping/README.md)
 
 ### DDD (Domain-Driven Design) Patterns
 - [Value Object and Entity Pattern based E-commerce Domain System](src/main/kotlin/architecture/ddd/ecommerce/README.md)
