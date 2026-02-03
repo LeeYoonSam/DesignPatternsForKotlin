@@ -126,6 +126,7 @@
 - [Null Object Pattern based User Authorization System](src/main/kotlin/behavioral/nullobject/authorization/README.md)
 - [Debounce Pattern based Search Component](src/main/kotlin/behavioral/debounce/search/README.md)
 - [Pipeline Pattern based Image Processing System](src/main/kotlin/behavioral/pipeline/image/README.md)
+- [Finite State Machine Pattern based App Onboarding Flow](src/main/kotlin/behavioral/fsm/onboarding/README.md)
 
 ### Concurrent Patterns
 - [Producer-Consumer Pattern based Job Queue System](src/main/kotlin/concurrent/producerconsumer/jobqueue/README.md)
