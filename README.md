@@ -155,6 +155,7 @@
 - [MVI Pattern based Product Search App](src/main/kotlin/architecture/mvi/search/README.md)
 - [Coordinator Pattern based Shopping App Navigation](src/main/kotlin/architecture/coordinator/shopping/README.md)
 - [Offline-First Pattern based Note Sync App](src/main/kotlin/architecture/offlinefirst/notes/README.md)
+- [Pagination Pattern based SNS Feed App](src/main/kotlin/architecture/pagination/feed/README.md)
 
 ### DDD (Domain-Driven Design) Patterns
 - [Value Object and Entity Pattern based E-commerce Domain System](src/main/kotlin/architecture/ddd/ecommerce/README.md)
