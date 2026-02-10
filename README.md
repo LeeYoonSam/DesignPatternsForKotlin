@@ -157,6 +157,7 @@
 - [Offline-First Pattern based Note Sync App](src/main/kotlin/architecture/offlinefirst/notes/README.md)
 - [Pagination Pattern based SNS Feed App](src/main/kotlin/architecture/pagination/feed/README.md)
 - [Unidirectional Data Flow (Redux) Pattern based Shopping App State](src/main/kotlin/architecture/redux/counter/README.md)
+- [Image Loading Pattern based Gallery App](src/main/kotlin/architecture/imageloading/gallery/README.md)
 
 ### DDD (Domain-Driven Design) Patterns
 - [Value Object and Entity Pattern based E-commerce Domain System](src/main/kotlin/architecture/ddd/ecommerce/README.md)
