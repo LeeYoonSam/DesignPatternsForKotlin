@@ -161,6 +161,7 @@
 - [Error Handling Pattern based API Client App](src/main/kotlin/architecture/errorhandling/api/README.md)
 - [Dependency Injection Container Pattern based Service Container](src/main/kotlin/architecture/dicontainer/container/README.md)
 - [Configuration Pattern based Environment Config](src/main/kotlin/architecture/configuration/environment/README.md)
+- [Graceful Shutdown Pattern based Server Application](src/main/kotlin/architecture/gracefulshutdown/server/README.md)
 
 ### DDD (Domain-Driven Design) Patterns
 - [Value Object and Entity Pattern based E-commerce Domain System](src/main/kotlin/architecture/ddd/ecommerce/README.md)
